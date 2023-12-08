@@ -1,36 +1,30 @@
 html {
   scroll-behavior: smooth;
-}
-
-#cuerpo-del-index {
   margin: 0;
   padding: 0;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  background-image: url(Imagenes/space-fondo-body.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  height: 100vh; /* Ajusta la altura del cuerpo al 100% de la ventana */
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-  background-color: rgb(5,5,63); /* Puedes cambiar el color de fondo según tu preferencia */
-}
+/* Navegador del haeder */
 
-.logo-y-titulo {
-  display: flex;
-  align-items: center;
+.navbar{
+padding: 0;
 }
-
+.navbar-content{
+  background-color: rgb(5, 5, 63);
+}
+.navbar-brand{
+  color: white;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color: white;
+}
 .logo-del-header {
-  max-width: 100px; /* Ajusta el ancho máximo según tu preferencia */
+  max-width: 100px;
 }
 
-.logos-del-nav-index {
+.logos-del-nav {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,37 +38,25 @@ nav {
 }
 
 .logo-instagram-nav {
-  width: 3.5rem;
+  width: 3rem;
 }
 
-.titulo-market-digital-nav-index {
-  text-decoration: none;
-  font-size: 2rem;
-  margin: 0;
-  color: white; /* Puedes cambiar el color del texto según tu preferencia */
-  margin-left: 10px; /* Ajusta el margen según tu preferencia */
-}
-
-.container-de-enlaces-del-header {
-  display: flex;
-}
-
-.main-del-index {
+/* Pagina del index del incio */
+.pagina-de-inicio{
+  background-image: url(Imagenes/marketdigitalmain.jpg);
+  height: 85vh;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  height: 70vh; /* Ajusta la altura del aside al 100% de su contenedor */
 }
 
-.titulo-del-main {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
+.titulo-del-inicio{
+  font-size: 7rem;
+  color: white;
+  padding-bottom: 1rem;
+  text-shadow: 3px 3px 10px rgb(35, 48, 193);
 }
 
 .ir-a-productos {
@@ -92,7 +74,7 @@ nav {
   color: rgb(0, 0, 0);
 }
 .ir-a-productos:hover {
-  box-shadow: 2px 2px 20px 12px rgb(48, 48, 48);
+  box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
 }
 .pie-de-pagina-de-index {
   color: white;
@@ -103,1326 +85,94 @@ nav {
   bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
   width: 100%; /* Ajusta el ancho al 100% de la ventana */
   position: absolute;
+  padding: 1rem;
 }
 
+/* Pagina de productos */
 
-/* Inicio de la pagina de productos */
-/* Inicio de la pagina de productos */
+/* Titulo de nuestros productos, empezando el main */
 
-#nav-de-productos {
-  background-color: rgb(5, 5, 63);
+main{
+  background-color: rgb(195, 192, 192);
 }
-.logos-del-nav-productos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  justify-content: space-between;
-}
-.titulo-market-digital-nav-productos {
-  text-decoration: none;
-  font-size: 2rem;
-  margin: 0;
-  color: white; /* Puedes cambiar el color del texto según tu preferencia */
-  margin-left: 10px; /* Ajusta el margen según tu preferencia */
-}
-#cuerpo-de-catalogo {
-  margin: 0;
-  padding: 0;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  min-height: 100vh;
-}
-#main-de-catalogo {
-  display: flex;
-  flex-direction: row; /* Cambia la dirección a columna para apilar verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  justify-content: space-evenly;
+.titulo-divisor{
   text-align: center;
-  min-height: 88vh;
-  background-image: url(/Imagenes/marketdigitalmain.jpg);
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-}
-
-.auris-segunda {
-  text-align: center;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column; /* Cambia la dirección a columna para apilar verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  justify-content: center; /* Centra verticalmente los elementos */
-  border-radius: 20px;
-  background-image: url(/Imagenes/airpods-background.jpg);
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: center;
-  text-decoration: none;
-}
-
-.auris-segunda:hover {
-  box-shadow: 2px 2px 20px 10px rgb(84, 84, 84);
-  text-decoration: underline;
-}
-
-.titulo-de-segunda-gen {
-  text-shadow: 5px 5px 5px rgba(0, 0, 255, 0.8);
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.vapes {
-  text-align: center;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column; /* Cambia la dirección a columna para apilar verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  justify-content: center; /* Centra verticalmente los elementos */
-  background-image: url(/Imagenes/background-image.jpg);
-  border-radius: 20px;
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: center;
-  text-decoration: none;
-}
-.vapes:hover {
-  box-shadow: 2px 2px 20px 10px rgb(84, 84, 84);
-  text-decoration: underline;
-}
-
-.titulo-de-vapes {
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-  color: rgb(255, 255, 255);
-}
-
-.cargadores{
-  text-align: center;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column; /* Cambia la dirección a columna para apilar verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  justify-content: center; /* Centra verticalmente los elementos */
-  background-image: url(/Imagenes/background-cargadores.jpg);
-  border-radius: 20px;
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: center;
-  text-decoration: none;
-
-}
-.cargadores:hover {
-  box-shadow: 2px 2px 20px 10px rgb(84, 84, 84);
-  text-decoration: underline;
-
-}
-
-.titulo-de-cargadores-main {
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-  color: rgb(255, 255, 255);
-}
-
-.celulares{
-  text-align: center;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column; /* Cambia la dirección a columna para apilar verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  justify-content: center; /* Centra verticalmente los elementos */
-  background-image: url(/Imagenes/background-celulares.jpg);
-  border-radius: 20px;
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: center;
-  text-decoration: none;
-
-}
-.celulares:hover {
-  box-shadow: 2px 2px 20px 10px rgb(84, 84, 84);
-  text-decoration: underline;
-
-}
-
-.titulo-de-celulares-main {
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-  color: rgb(255, 255, 255);
-}
-
-
-#todo-de-los-airpods {
-  background-size: cover;
-  height: 900px;
-  align-items: center;
-  position: relative;
-  background-image: url(/Imagenes/todo-airpods-background.jpg);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#div-de-catalogo {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(5, 5, 63);
-}
-
-.titulo-del-aside-del-catalogo {
-  color: whitesmoke;
-  letter-spacing: 0.3rem;
-  font-size: 1.5rem;
-  text-decoration: underline;
-  align-items: center;
-}
-
-.botones-de-navegacion{
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  width: 150px;
-  max-height: 24px ;
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px 5px rgb(64, 64, 254);  
-}
-
-.botones-de-navegacion:hover{
-text-decoration: underline;
-}
-
-#info-de-auris-de-segunda-gen {
-  width: 700px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin-left: 1rem;
-  background-color: black;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-
-.titulo-de-auriculares-de-segunda-gen {
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.parrafo-de-auris-de-segunda-generacion {
-  font-size: 1rem;
-  color: rgb(255, 255, 255);
-}
-
-#info-de-auris-de-tercera-gen {
-  width: 700px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin-right: 1.3rem;
-  background-color: black;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-auriculares-de-tercera-gen {
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.parrafo-de-auris-de-tercera-generacion {
-  font-size: 1rem;
-  color: rgb(255, 255, 255);
-}
-
-.imagenes-segunda-gen {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.imagen-de-segunda-generacion-1 {
-  width: 220px;
-}
-.imagen-de-segunda-generacion-2 {
-  width: 210px;
-}
-.imagen-de-segunda-generacion-3 {
-  width: 180px;
-  padding-left: 3rem;
-}
-
-.imagenes-tercera-gen {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 284px;
-}
-
-.imagen-de-tercera-generacion-1 {
-  width: 250px;
-}
-.imagen-de-tercera-generacion-2 {
-  width: 200px;
-}
-.imagen-de-tercera-generacion-3 {
-  width: 260px;
-}
-/* Estilos para el botón de compra */
-.boton-comprar {
-  background-color: #50a154;
-  color: rgb(255, 255, 255);
-  padding: 10px 20px;
-  border: none;
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
+  background-color: #a0a0a0;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.vapers-productos{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.titulo-de-vapers-productos{
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+box-sizing: border-box;
+padding: 15px;
+background-color: #bc3030;
+border-radius: 8px;
+}
+
+.container {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  margin: 0 10px;
   cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 1rem;
-}
-
-.boton-comprar:hover {
-  background-color: #45a049;
-}
-
-#todo-de-vaporizadores {
-  height: 100%;
-  background-image: url(Imagenes/vape-background.jpg);
-  background-size: cover;
-}
-#inicio-de-vaporizadores {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(5, 5, 63);
-  color: white;
-  align-items: center;
-}
-.titulo-de-vaporizadores {
-  letter-spacing: 0.3rem;
-}
-.container-de-vaporizadores {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 95vh;
-}
-.dummy-article {
-  width: 700px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  background-image: url(Imagenes/sixnine-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px 7px rgb(255, 100, 180);
-}
-
-.titulo-de-dummy {
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 10px rgb(100, 113, 255);
-}
-
-.titulo-de-sabores-de-dummy {
-  color: white;
-}
-.ul-de-dummy {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.ul-de-dummy {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  justify-content: center;
-  padding-top: 2rem;
-  font-size: 1rem;
-}
-.listas-de-gustos-dummy {
-  text-transform: uppercase;
-  padding-bottom: 2rem;
-  color: rgb(255, 255, 255);
-}
-.gustos-de-gustos-dummy {
-  text-shadow: 0 0 7px rgb(255, 100, 180);
-}
-.supreme-article {
-  width: 700px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  background-image: url(/Imagenes/supreme-background.jpg);
-  background-size: cover;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px 7px rgb(255, 100, 180);
-}
-.titulo-de-supreme {
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 10px rgb(100, 113, 255);
-}
-.ul-de-supreme {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  justify-content: center;
-}
-.listas-de-gustos-supreme {
-  text-transform: uppercase;
-  padding-bottom: 1.3rem;
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
-}
-.gustos-de-gustos-supreme {
-  text-shadow: 0 0 7px rgb(255, 100, 180);
-}
-
-.boton-comprar-vapos-supreme {
-  background-color: rgb(255, 100, 180);
-  color: white;
-  padding: 10px 20px;
-  border: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px; /* Tamaño de fuente */
-  margin-top: 10px; /* Margen superior para separar los botones */
-  margin-bottom: 15px;
+  transition:  0.3s ease-in-out;
 }
 
-.boton-comprar-vapos-supreme:hover {
-  box-shadow: 0px 0px 20px 1px rgb(255, 100, 180);
+.filter-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(35, 48, 193);
 }
-.boton-comprar-vapos-dummy {
-  background-color: rgb(255, 100, 180);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px; /* Tamaño de fuente */
-  margin-top: 10px; /* Margen superior para separar los botones */
-  margin-bottom: 15px;
+.consultas-boton{
+  text-decoration: none;
+  color: black;
 }
-
-.boton-comprar-vapos-dummy:hover {
-  box-shadow: 0px 0px 20px 1px rgb(255, 100, 180);
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px; /* Espaciado entre tarjetas */
+  margin-top: 20px;
+  transition:  0.3s ease-in-out;
 }
 
-#div-de-cargadores {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(5, 5, 63);
+.card:hover {
+  transform: scale(1.05);
 }
 
-.titulo-de-cargadores{
-  color: whitesmoke;
-  letter-spacing: 0.3rem;
-}
-
-.todo-de-cargadores{
-  background-image: url(/Imagenes/background-cargadores-section.jpg);
-  background-size: cover;
-  min-height: 80vh;}
-
-#info-de-cargadores {
-  background-size: cover;
-  align-items: center;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  min-height: 90VH;
-}
-
-.cargador-usb-c {
-  background-image: url(Imagenes/background-cargadores-tipo-c.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 550px;
-  height: 550px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-cargador-usb-c{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-cargador-usb-c{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-cargador-usb-c:hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-.cargador-portatil {
-  background-image: url(Imagenes/background-cargador-portatil.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 550px 550px;
-  width: 550px;
-  height: 550px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-cargador-portatil{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-cargador-portatil{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-cargador-portatil:hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-#div-de-celulares {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(5, 5, 63);
-}
-
-.titulo-de-celulares{
-  color: whitesmoke;
-  letter-spacing: 0.3rem;
-}
-
-.todo-de-iphones{
-  background-image: url(/Imagenes/background-todo-de-celulares.jpg);
-  background-size: cover;
-}
-
-#info-de-celulares-x-11-12 {
-  background-size: cover;
-  align-items: center;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  min-height: 46vh;
-}
-
-.iphone-x {
-  background-image: url(Imagenes/background-iphone-x.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-x{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.parrafo-de-iphone-x{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-x{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-iphone-x :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-.iphone-11 {
-  background-image: url(Imagenes/iphone-11.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-11{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.parrafo-de-iphone-11{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-11{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-iphone-11 :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-.iphone-12 {
-  background-image: url(Imagenes/background-iphone-12.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-12{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.parrafo-de-iphone-12{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-12{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-iphone-12 :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-#info-de-celulares-13-14-15 {
-  background-size: cover;
-  align-items: center;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  min-height: 40vh;
-
-}
-.iphone-13 {
-  background-image: url(Imagenes/background-iphone-13.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-13{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.parrafo-de-iphone-13{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-13{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-iphone-123 :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-.iphone-14 {
-  background-image: url(Imagenes/background-iphone-14.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-14{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.parrafo-de-iphone-14{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-14{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.enlace-boton-comprar-iphone-14 :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-.iphone-15 {
-  background-image: url(Imagenes/background-iphone-15.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 7px rgb(255, 255, 255);
-  justify-content: center;
-}
-.titulo-de-iphone-15{
-  color: white;
-  font-size: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.boton-comprar-iphone-15{
-  font-size: 1rem;
-  color: white;
-  padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 5.5px;
-}
-
-.parrafo-de-iphone-15{
-  color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.8);
-}
-
-.enlace-boton-comprar-iphone-15 :hover{
-  box-shadow: 0px 0px 20px 5px white;
-}
-
-.pie-de-pagina-de-productos {
-  color: white;
-  background-color: rgb(5, 5, 63);
-  text-align: center;
-  display: flex;
-  bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+.card img {
   width: 100%;
-  height: 6vh;
-  margin: 0px;
-  align-items: center;
-  justify-content: center;
+  height: auto;
+  border-bottom: 1px solid #ccc;
 }
-.footer-h3-productos{
-  margin: 0;
+.filter-btn{
+  border-radius: 12px;
+  background-color: #ccc;
 }
-
-
-
-/* Responsive para la pagina del index */
-@media screen and (max-width: 580px) {
-  #cuerpo-del-index {
-    min-height: 100vh;
-  }
-  .titulo-market-digital-nav-index {
-    font-size: 1.5rem;
-  }
-  .logos-del-nav-index {
-    max-width: 100px;
-  }
-  .logo-whatsapp-nav,
-  .logo-instagram-nav {
-    width: 3rem;
-  }
-  .titulo-del-main {
-    font-size: 60px;
-  }
-  .ir-a-productos {
-    font-size: 15px;
-  }
-
-  .footer-h3-index,
-  .autor-de-empresa-index {
-    margin-top: 1.5rem;
-    font-size: 15px;
-  }
+.card-body {
+  padding: 15px;
 }
 
-/* Responsive para la pagina de prodcutos */
 
-@media screen and ( max-width: 580px) {
 
-  /* Inicio de responsive para header */
-  /* Inicio de responsive para header */
-
-.titulo-market-digital-nav-productos{
-  font-size: 25px;
-}
-
-.logos-del-nav-productos{
-  margin-right: 3rem;
-}
-
-  /* Inicio de responsive para portada */
-  /* Inicio de responsive para portada */
-
-  #cuerpo-de-catalogo {
-    min-width: 100%;
-    max-width: 1%;
-  }
-  #main-de-catalogo {
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .titulo-de-segunda-gen {
-    display: flex;
-    max-width: 300px;
-    max-height: 300px;
-  }
-  .titulo-de-vapes {
-    display: flex;
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  /* Inicio de responsive para Airpods */
-  /* Inicio de responsive para Airpods */
-
-  .titulo-del-aside-del-catalogo {
-    font-size: 20px;
-  }
-
-  #todo-de-los-airpods {
-    min-width: 100%;
-    min-height: 850px;
-    align-items: center;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #info-de-auris-de-segunda-gen {
-    max-width: 300px;
-    max-height: 320px;
-    margin: 2rem 0px 2rem 0px;
-  }
-  .parrafo-de-auris-de-segunda-generacion {
-    font-size: 12px;
-  }
-  .imagenes-segunda-gen {
-    max-width: 200px;
-    height: 79px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .imagen-de-segunda-generacion-1 {
-    max-width: 40px;
-  }
-  .imagen-de-segunda-generacion-2 {
-    max-width: 40px;
-  }
-  .imagen-de-segunda-generacion-3 {
-    padding: 0px;
-    max-width: 40px;
-  }
-  .enlace-boton-comprar {
-    width: 180px;
-  }
-  .boton-comprar {
-    max-width: 180px;
-    font-size: 12px;
-    padding: 5px 10px;
-    margin: 5px 10px;
-  }
-  #info-de-auris-de-tercera-gen {
-    max-width: 300px;
-    max-height: 320px;
-    margin: 2rem 0px 0px 0px;
-  }
-  .parrafo-de-auris-de-tercera-generacion {
-    font-size: 12px;
-  }
-  .imagenes-tercera-gen {
-    max-width: 200px;
-  }
-  .imagen-de-tercera-generacion-1 {
-    max-width: 40px;
-  }
-  .imagen-de-tercera-generacion-2 {
-    max-width: 40px;
-  }
-  .imagen-de-tercera-generacion-3 {
-    max-width: 40px;
-  }
-
-  /* Inicio de responsive para Vapers */
-  /* Inicio de responsive para Vapers */
-
-  #todo-de-vaporizadores{
-    min-width: 100%;
-    min-height: 850px;
-    align-items: center;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #inicio-de-vaporizadores{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(5, 5, 63);
-  }
-
-  .titulo-de-vaporizadores {
-    font-size: 20px;
-    letter-spacing: 0.3rem;
-  }
-
-  .container-de-vaporizadores {
-    max-width: 480px;
-    min-height: 20vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(Imagenes/background-vapes-responsive.jpg);
-  }
-  .dummy-article {
-    max-width: 300px;
-    max-height: 350px;
-    margin: 3rem 0px 2rem 0px;
-  }
-  .titulo-de-dummy {
-    font-size: 18px;
-  }
-  .ul-de-dummy {
-    padding: 0;
-  }
-  .listas-de-gustos-dummy {
-    padding: 0;
-  }
-  .gustos-de-gustos-dummy {
-    padding: 0;
-    margin: 15px;
-    font-size: 12px;
-  }
-
-  .boton-comprar-vapos-dummy {
-    max-width: 200px;
-    padding: 5px 10px;
-    font-size: 12px;
-    margin-top: 2rem;
-  }
-  .supreme-article {
-    max-width: 300px;
-    max-height: 350px;
-    margin: 3rem 0px 2rem 0px;
-  }
-  .titulo-de-supreme {
-    font-size: 18px;
-  }
-  .ul-de-supreme {
-    padding: 0;
-  }
-  .listas-de-gustos-supreme {
-    padding: 0;
-  }
-  .gustos-de-gustos-supreme {
-    padding: 0;
-    margin: 12px;
-    font-size: 12px;
-  }
-  .boton-comprar-vapos-supreme {
-    max-width: 200px;
-    padding: 5px 8px;
-    font-size: 12px;
-    margin-top: 1rem;
-  }
-
-  /* Inicio de responsive para pie de pagina */
-  /* Inicio de responsive para pie de pagina */
-
-  .pie-de-pagina-productos {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-h3-productos, .autor-de-empresa-productos {
-    font-size: 13px;
-
-  }
-}
-
-/* Responsive para la pagina de prodcutos */
-
-@media screen and ( max-width: 430px) {
-  
-  /* Inicio de responsive para header */
-  /* Inicio de responsive para header */
-
-.titulo-market-digital-nav-productos{
-  font-size: 20px;
-}
-
-.logos-del-nav-productos{
-  margin-right: 1rem;
-}
-.logo-whatsapp-nav, .logo-instagram-nav{
-  width:30px ;
-}
-
-  /* Inicio de responsive para portada */
-  /* Inicio de responsive para portada */
-
-  #cuerpo-de-catalogo {
-    min-width: 100%;
-
-  }
-  #main-de-catalogo {
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .titulo-de-segunda-gen {
-    display: flex;
-    max-width: 300px;
-    max-height: 300px;
-  }
-  .titulo-de-vapes {
-    display: flex;
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  /* Inicio de responsive para Airpods */
-  /* Inicio de responsive para Airpods */
-
-  .titulo-del-aside-del-catalogo {
-    font-size: 20px;
-  }
-
-  #todo-de-los-airpods {
-    min-width: 100%;
-    min-height: 850px;
-    align-items: center;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #info-de-auris-de-segunda-gen {
-    max-width: 300px;
-    max-height: 320px;
-    margin: 2rem 0px 2rem 0px;
-  }
-  .parrafo-de-auris-de-segunda-generacion {
-    font-size: 12px;
-  }
-  .imagenes-segunda-gen {
-    max-width: 200px;
-    height: 79px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .imagen-de-segunda-generacion-1 {
-    max-width: 40px;
-  }
-  .imagen-de-segunda-generacion-2 {
-    max-width: 40px;
-  }
-  .imagen-de-segunda-generacion-3 {
-    padding: 0px;
-    max-width: 40px;
-  }
-  .enlace-boton-comprar {
-    width: 180px;
-  }
-  .boton-comprar {
-    max-width: 180px;
-    font-size: 12px;
-    padding: 5px 10px;
-    margin: 5px 10px;
-  }
-  #info-de-auris-de-tercera-gen {
-    max-width: 300px;
-    max-height: 320px;
-    margin: 2rem 0px 0px 0px;
-  }
-  .parrafo-de-auris-de-tercera-generacion {
-    font-size: 12px;
-  }
-  .imagenes-tercera-gen {
-    max-width: 200px;
-  }
-  .imagen-de-tercera-generacion-1 {
-    max-width: 40px;
-  }
-  .imagen-de-tercera-generacion-2 {
-    max-width: 40px;
-  }
-  .imagen-de-tercera-generacion-3 {
-    max-width: 40px;
-  }
-
-  /* Inicio de responsive para Vapers */
-  /* Inicio de responsive para Vapers */
-
-  #todo-de-vaporizadores{
-    min-width: 100%;
-    min-height: 850px;
-    align-items: center;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #inicio-de-vaporizadores{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(5, 5, 63);
-  }
-
-  .titulo-de-vaporizadores {
-    font-size: 20px;
-    letter-spacing: 0.3rem;
-  }
-
-  .container-de-vaporizadores {
-    max-width: 480px;
-    min-height: 20vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(Imagenes/background-vapes-responsive.jpg);
-  }
-  .dummy-article {
-    max-width: 300px;
-    max-height: 350px;
-    margin: 3rem 0px 2rem 0px;
-  }
-  .titulo-de-dummy {
-    font-size: 18px;
-  }
-  .ul-de-dummy {
-    padding: 0;
-  }
-  .listas-de-gustos-dummy {
-    padding: 0;
-  }
-  .gustos-de-gustos-dummy {
-    padding: 0;
-    margin: 15px;
-    font-size: 12px;
-  }
-
-  .boton-comprar-vapos-dummy {
-    max-width: 200px;
-    padding: 5px 10px;
-    font-size: 12px;
-    margin-top: 2rem;
-  }
-  .supreme-article {
-    max-width: 300px;
-    max-height: 350px;
-    margin: 3rem 0px 3rem 0px;
-  }
-  .titulo-de-supreme {
-    font-size: 18px;
-  }
-  .ul-de-supreme {
-    padding: 0;
-  }
-  .listas-de-gustos-supreme {
-    padding: 0;
-  }
-  .gustos-de-gustos-supreme {
-    padding: 0;
-    margin: 12px;
-    font-size: 12px;
-  }
-  .boton-comprar-vapos-supreme {
-    max-width: 200px;
-    padding: 5px 8px;
-    font-size: 12px;
-    margin-top: 1rem;
-  }
-
-  /* Inicio de responsive para pie de pagina */
-  /* Inicio de responsive para pie de pagina */
-
-  .pie-de-pagina-productos {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-h3-productos, .autor-de-empresa-productos {
-    font-size: 13px;
-
-  }
-}
-/* Responsive para la pagina del index */
-
-@media screen and (max-width: 320px) {
-  #cuerpo-del-index {
-    min-height: 100vh;
-    max-width: 100%;
-  }
-  nav {
-    align-items: center;
-  }
-  .logo-del-header {
-    width: 70px;
-  }
-  .logos-del-nav-index {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-  }
-  .logos-del-nav-index {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-  }
-  .logo-whatsapp-nav,
-  .logo-instagram-nav {
-    width: 32px;
-  }
-  .titulo-market-digital-nav-index {
-    font-size: 13.5px;
-  }
-  .titulo-del-main{
-    font-size: 50px;
-  }
-  .ir-a-productos {
-    font-size: 12px;
-    width: 10rem;
-    height: 3rem;
-  }
-
-  .footer-h3-index,
-  .autor-de-empresa-index {
-    font-size: 15px;
-  }
-}
-
-/* Responsive para la pagina de prodcutos */
-
-@media screen and (max-width: 320px) {
-
-  .nav-de-productos {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-  .logo-del-header {
-    width: 70px;
-  }
-  .titulo-market-digital-nav-productos{
-    font-size: 15px;
-  }
-.supreme-article{
-  background-position: center;
-  background-size: cover;
-}
-}
