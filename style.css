@@ -275,6 +275,7 @@ footer{
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
     width: 100%; /* Ajusta el ancho al 100% de la ventana */
     padding: 0.5rem;
+    position: absolute;
     bottom: 0;
   }
   .enlace-a-whatsapp {
@@ -335,6 +336,7 @@ footer{
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
     width: 100%; /* Ajusta el ancho al 100% de la ventana */
     padding: 0.5rem;
+    position: absolute;
     bottom: 0;
   }
   .enlace-a-whatsapp {
@@ -395,6 +397,7 @@ footer{
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
     width: 100%; /* Ajusta el ancho al 100% de la ventana */
     padding: 0.5rem;
+    position: absolute;
     bottom: 0;
   }
   .enlace-a-whatsapp {
