@@ -214,7 +214,7 @@ main {
   align-items: center;
   flex-direction: column;
   right: 30px;
-  bottom: 50px;
+  bottom: 75px;
 }
 .logo-de-whatsapp,
 .logo-de-instagram {
@@ -232,13 +232,58 @@ footer{
 }
 
 @media (max-width: 576px) {
+  .pagina-de-inicio {
+    background-image: url(Imagenes/marketdigitalmain.jpg);
+    height: 83vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+  
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+  .pie-de-pagina-de-index {
+    color: white;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    padding: 0.5rem;
+    bottom: 0;
+  }
   .enlace-a-whatsapp {
     position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     right: 15px;
-    bottom: 30px;
+    bottom: 70px;
   }
   .logo-de-whatsapp,
   .logo-de-instagram {
@@ -247,13 +292,58 @@ footer{
   }
 }
 @media (max-width: 768px) {
+  .pagina-de-inicio {
+    background-image: url(Imagenes/marketdigitalmain.jpg);
+    height: 83vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+  
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+  .pie-de-pagina-de-index {
+    color: white;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    padding: 0.5rem;
+    bottom: 0;
+  }
   .enlace-a-whatsapp {
     position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     right: 15px;
-    bottom: 30px;
+    bottom: 70px;
   }
   .logo-de-whatsapp,
   .logo-de-instagram {
@@ -262,13 +352,58 @@ footer{
   }
 }
 @media (max-width: 992px) {
+  .pagina-de-inicio {
+    background-image: url(Imagenes/marketdigitalmain.jpg);
+    height: 83vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+  
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+  .pie-de-pagina-de-index {
+    color: white;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    padding: 0.5rem;
+    bottom: 0;
+  }
   .enlace-a-whatsapp {
     position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     right: 15px;
-    bottom: 30px;
+    bottom: 70px;
   }
   .logo-de-whatsapp,
   .logo-de-instagram {
