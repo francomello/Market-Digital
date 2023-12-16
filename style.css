@@ -1,10 +1,17 @@
-html {
+html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
 
 /* Navegador del haeder */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; /* Ajusta el valor según sea necesario */
+}
 
 .navbar {
   padding: 0;
@@ -49,7 +56,7 @@ html {
 /* Pagina del index del incio */
 .pagina-de-inicio {
   background-image: url(Imagenes/marketdigitalmain.jpg);
-  height: 85vh;
+  height: 95vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -93,24 +100,38 @@ html {
   padding: 1rem;
 }
 
-/* Pagina de productos */
+/* Pagina de productos  /
 
 /* Titulo de nuestros productos, empezando el main */
 
 main {
+  margin-top: 5rem;
   background-image: url(./Imagenes/space-fondo-body.jpg);
   display: flex;
   flex-direction: column;
 }
+.fila-de-titulo-divisor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr{
+  margin: 2rem;
+  border: 3px solid rgb(255, 255, 255);
+  opacity: 1;
+  box-shadow: 2px 2px 20px grey;
+
+}
 .titulo-divisor {
   text-align: center;
-  margin: 20px;
-  padding: 10px;
+  margin: 50px;
+  padding: 5px;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
-  background-color: #a0a0a0;
+  background-color: #bababa;
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+  font-weight: 650;
 }
 
 .container {
@@ -154,6 +175,20 @@ main {
   transform: scale(1.05);
 }
 
+.card-title{
+  font-weight: bolder;
+  font-family: 'scroll-behavior';
+}
+.card-text{
+  font-weight: 400;
+  font-family: 'Rubik', 'Doodle', 'Shadow';
+  margin-top: 0.5rem;
+  background-color: transparent; 
+  border: 1px solid rgb(194, 194, 194);
+  padding: 5px;
+  border-radius: 4px;
+ }
+
 .card img {
   width: 100%;
   height: auto;
@@ -162,28 +197,42 @@ main {
 .filter-btn {
   border-radius: 12px;
   background-color: #ccc;
+  box-shadow: 0px 2px 2px grey;
 }
 .card-body {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
+  text-align: center;
+  align-items: center;
 }
 .vaporizadores {
   display: flex;
   justify-content: center;
 }
+.product-price{
+  background-color: rgb(173, 252, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  font-family: 'Pacifico';
+  font-size: 1.2rem;
+}
 .carta-vaporizadores {
   width: 80%;
+}
+.celulares-fila{
+  justify-content: center;
 }
 .celulares-contenedor {
   display: flex;
   justify-content: center;
 }
-.celulares-4 {
-  width: 70%;
+.celulares-2 {
+  width: 100%;
 }
-.iphone14-15 {
-  display: flex;
-  justify-content: center;
-}
+
 .airpods-contenedor {
   display: flex;
   justify-content: center;
@@ -192,15 +241,34 @@ main {
   width: 70%;
   justify-content: center;
 }
-.cargador-tipo-c {
+.cargador-tipo-c-a-lightning{
   display: flex;
   justify-content: center;
 }
+.cabezal-tipo-c{
+  display: flex;
+  justify-content: center;
+}
+.cabezal-usb{
+  display: flex;
+  justify-content: center;
+}
+
+.combo-cargador-contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+.cargador-combo{
+  display: flex;
+  justify-content: center;
+}
+
 .cargador {
   width: 70%;
   justify-content: center;
 }
-.cargador-portatil {
+.cargador-usb-a-lightning {
   display: flex;
   justify-content: center;
 }
@@ -230,12 +298,11 @@ footer{
   display: flex;
   justify-content: center;
 }
-
 @media (max-width: 576px) {
   .pagina-de-inicio {
     background-image: url(Imagenes/marketdigitalmain.jpg);
     background-position: center;
-    height: 77vh;    
+    height: 100vh;    
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -293,11 +360,11 @@ footer{
     padding-top: 10px;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) {
   .pagina-de-inicio {
     background-image: url(Imagenes/marketdigitalmain.jpg);
     background-position: center;
-    height: 77vh;
+    height: 100vh;    
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -355,11 +422,73 @@ footer{
     padding-top: 10px;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 768px) {
   .pagina-de-inicio {
     background-image: url(Imagenes/marketdigitalmain.jpg);
     background-position: center;
-    height: 77vh;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+  
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+  .pie-de-pagina-de-index {
+    color: white;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+  .enlace-a-whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 15px;
+    bottom: 70px;
+  }
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 50px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .pagina-de-inicio {
+    background-image: url(Imagenes/marketdigitalmain.jpg);
+    background-position: center;
+    height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
