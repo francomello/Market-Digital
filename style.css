@@ -28,6 +28,7 @@ header {
   font-size: 1.7rem;
   text-transform: uppercase;
   font-weight: bolder;
+  max-width: 100%;
 }
 .navbar-brand:hover {
   color: white;
