@@ -2,6 +2,7 @@ html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 /* Navegador del haeder */
@@ -241,18 +242,6 @@ hr{
   width: 70%;
   justify-content: center;
 }
-.cargador-tipo-c-a-lightning{
-  display: flex;
-  justify-content: center;
-}
-.cabezal-tipo-c{
-  display: flex;
-  justify-content: center;
-}
-.cabezal-usb{
-  display: flex;
-  justify-content: center;
-}
 
 .combo-cargador-contenedor{
   display: flex;
@@ -268,14 +257,7 @@ hr{
   width: 70%;
   justify-content: center;
 }
-.cargador-usb-a-lightning {
-  display: flex;
-  justify-content: center;
-}
-.imagen-cargador-portatil {
-  width: 200px;
-  height: 200px;
-}
+
 .enlace-a-whatsapp {
   position: fixed;
   display: flex;
