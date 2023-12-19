@@ -1,0 +1,584 @@
+// Definir variables
+
+$background-color: rgb(5, 5, 63);
+$white-color: #ffffff;
+$shadow-color: rgb(35, 48, 193);
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// Estilos globales
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+// Header estilos
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-content {
+  background-color: rgb(5, 5, 63);
+}
+
+.navbar-brand {
+  @include flex-container;
+  color: $white-color;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  max-width: 100%;
+
+  &:hover {
+    color: $white-color;
+  }
+  .logo-del-header {
+    max-width: 100px;
+  }
+}
+.todos-los-enlaces-del-nav {
+padding-right: 2rem;
+  .enlaces-del-navbar {
+    text-decoration: none;
+    color: lightgrey;
+
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .barra-del-nav{
+    color: $white-color;
+    padding: 10px;
+  }
+}
+
+// pagina de inicio estilos
+.pagina-de-inicio {
+  background-image: url(../Imagenes/marketdigitalmain.jpg);
+  height: 95vh;
+  background-size: cover;
+  @include flex-container-column;
+
+  .titulo-del-inicio {
+    font-size: 5rem;
+    color: $white-color;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+
+  .ir-a-productos {
+    @include flex-container;
+    background-color: $white-color;
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      @include box-shadow(2px 2px 20px 12px rgb(35, 48, 193));
+    }
+  }
+}
+
+// Footer estilos
+.pie-de-pagina-de-index {
+  color: $white-color;
+  background-color: rgb(5, 5, 63);
+  @include flex-container;
+  text-align: start;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  padding: 1rem;
+}
+
+// Main styles
+main {
+  margin-top: 5rem;
+  background-image: url(../Imagenes/space-fondo-body.jpg);
+  
+
+  .fila-de-titulo-divisor {
+    @include flex-container;
+  }
+
+  hr {
+    margin: 2rem;
+    border: 3px solid rgb(255, 255, 255);
+    opacity: 1;
+    box-shadow: 2px 2px 20px grey;
+  }
+
+  .titulo-divisor {
+    text-align: center;
+    margin: 50px;
+    padding: 7px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    background: linear-gradient( #000538 5%, #002df4 80%, #000538 5%);
+    text-shadow: 4px 4px 0px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+  }
+
+  .container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .filters {
+    @include flex-container;
+    margin-bottom: 20px;
+  }
+
+  .filter-btn {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 10px rgb(35, 48, 193);
+    }
+  }
+
+  .consultas-boton {
+    text-decoration: none;
+    color: black;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .card-title {
+    font-weight: bolder;
+    font-family: "scroll-behavior";
+  }
+
+  .card-text {
+    font-weight: 400;
+    font-family: "Rubik", "Doodle", "Shadow";
+    margin-top: 0.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .filter-btn {
+    border-radius: 12px;
+    background-color: #ccc;
+    box-shadow: 0px 2px 2px grey;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .vaporizadores {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-price {
+    @include flex-container;
+    background-color: rgb(173, 252, 166);
+    width: 200px;
+    font-family: "Pacifico";
+    font-size: 1.2rem;
+  }
+
+  .carta-vaporizadores {
+    width: 80%;
+  }
+
+  .celulares-fila {
+    justify-content: center;
+  }
+
+  .celulares-contenedor {
+    @include flex-container;
+  }
+
+  .celulares-2 {
+    width: 100%;
+  }
+
+  .airpods-contenedor {
+    @include flex-container;
+  }
+
+  .airpods {
+    width: 70%;
+    justify-content: center;
+  }
+
+  .combo-cargador-contenedor {
+    @include flex-container;
+
+  }
+
+  .cargador-combo {
+    @include flex-container;
+  }
+
+  .cargador {
+    justify-content: center;
+    width: 70%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px; 
+  background-color: rgb(5, 5, 63);
+  padding: 1.3rem;
+
+  .titulo-del-footer {
+    font-weight: bolder;
+    color: $white-color;  
+    font-size: 1.4rem;
+
+  }
+}
+
+
+// Enlaces plegados a la derecha
+
+.enlaces-esquina-derecha {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  right: 30px;
+  bottom: 75px;
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 80px;
+    border-bottom: 0;
+  }
+}
+@media (max-width: 376px) {
+  .pagina-de-inicio {
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: $white-color;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white-color;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+
+  .pie-de-pagina-de-index {
+    color: $white-color;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .enlace-a-whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 15px;
+    bottom: 70px;
+  }
+
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .pagina-de-inicio {
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: $white-color;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white-color;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+
+  .pie-de-pagina-de-index {
+    color: $white-color;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .enlace-a-whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 15px;
+    bottom: 70px;
+  }
+
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagina-de-inicio {
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: $white-color;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white-color;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+
+  .pie-de-pagina-de-index {
+    color: $white-color;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .enlace-a-whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 15px;
+    bottom: 70px;
+  }
+
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pagina-de-inicio {
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-del-inicio {
+    font-size: 3rem;
+    color: $white-color;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 10px rgb(35, 48, 193);
+  }
+
+  .ir-a-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white-color;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .ir-a-productos:hover {
+    box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  }
+
+  .pie-de-pagina-de-index {
+    color: $white-color;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .enlaces-esquina-derecha {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 15px;
+    bottom: 70px;
+  }
+
+  .logo-de-whatsapp,
+  .logo-de-instagram {
+    width: 50px;
+    padding-top: 10px;
+  }
+}

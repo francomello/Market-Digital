@@ -1,153 +1,146 @@
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   max-width: 100%;
 }
 
-/* Navegador del haeder */
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1; /* Ajusta el valor según sea necesario */
+  z-index: 1;
 }
 
 .navbar {
   padding: 0;
 }
+
 .navbar-content {
   background-color: rgb(5, 5, 63);
 }
+
 .navbar-brand {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  color: white;
+  color: #ffffff;
   font-size: 1.7rem;
   text-transform: uppercase;
   font-weight: bolder;
   max-width: 100%;
 }
 .navbar-brand:hover {
-  color: white;
+  color: #ffffff;
 }
-
-.logo-del-header {
+.navbar-brand .logo-del-header {
   max-width: 100px;
 }
 
-.logos-del-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  justify-content: space-between;
-  margin-right: 1rem;
+.todos-los-enlaces-del-nav {
+  padding-right: 2rem;
+}
+.todos-los-enlaces-del-nav .enlaces-del-navbar {
+  text-decoration: none;
+  color: lightgrey;
+}
+.todos-los-enlaces-del-nav .enlaces-del-navbar:hover {
+  text-decoration: underline;
+}
+.todos-los-enlaces-del-nav .barra-del-nav {
+  color: #ffffff;
+  padding: 10px;
 }
 
-.logo-whatsapp-nav {
-  width: 3.5rem;
-}
-
-.logo-instagram-nav {
-  width: 3rem;
-}
-
-/* Pagina del index del incio */
 .pagina-de-inicio {
-  background-image: url(Imagenes/marketdigitalmain.jpg);
+  background-image: url(../Imagenes/marketdigitalmain.jpg);
   height: 95vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-
-.titulo-del-inicio {
-  font-size: 7rem;
-  color: white;
+.pagina-de-inicio .titulo-del-inicio {
+  font-size: 5rem;
+  color: #ffffff;
   padding-bottom: 1rem;
   text-shadow: 3px 3px 10px rgb(35, 48, 193);
 }
-
-.ir-a-productos {
+.pagina-de-inicio .ir-a-productos {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  width: 18rem;
-  height: 5rem;
+  width: 15rem;
+  height: 4rem;
   border: none;
   border-radius: 10px;
   font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
 }
-.ir-a-productos:hover {
+.pagina-de-inicio .ir-a-productos:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
+  -moz-box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
   box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
 }
+
 .pie-de-pagina-de-index {
-  color: white;
+  color: #ffffff;
   background-color: rgb(5, 5, 63);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   text-align: start;
-  bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-  width: 100%; /* Ajusta el ancho al 100% de la ventana */
+  bottom: 0;
+  width: 100%;
   position: absolute;
   padding: 1rem;
 }
 
-/* Pagina de productos  /
-
-/* Titulo de nuestros productos, empezando el main */
-
 main {
   margin-top: 5rem;
-  background-image: url(./Imagenes/space-fondo-body.jpg);
-  display: flex;
-  flex-direction: column;
+  background-image: url(../Imagenes/space-fondo-body.jpg);
 }
-.fila-de-titulo-divisor{
+main .fila-de-titulo-divisor {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-hr{
+main hr {
   margin: 2rem;
   border: 3px solid rgb(255, 255, 255);
   opacity: 1;
   box-shadow: 2px 2px 20px grey;
-
 }
-.titulo-divisor {
+main .titulo-divisor {
   text-align: center;
   margin: 50px;
-  padding: 5px;
+  padding: 7px;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 5px;
-  background-color: #bababa;
-  text-shadow: 2px 2px 5px rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background: linear-gradient(#000538 5%, #002df4 80%, #000538 5%);
+  text-shadow: 4px 4px 0px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 650;
 }
-
-.container {
+main .container {
   padding: 20px;
   box-sizing: border-box;
 }
-
-.filters {
+main .filters {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
-
-.filter-btn {
+main .filter-btn {
   margin: 0 10px;
   cursor: pointer;
   padding: 5px 10px;
@@ -155,111 +148,119 @@ hr{
   border-radius: 5px;
   transition: 0.3s ease-in-out;
 }
-
-.filter-btn:hover {
+main .filter-btn:hover {
   transform: scale(1.05);
   box-shadow: 0px 0px 10px rgb(35, 48, 193);
 }
-.consultas-boton {
+main .consultas-boton {
   text-decoration: none;
   color: black;
 }
-.card {
+main .card {
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 20px; /* Espaciado entre tarjetas */
+  margin-bottom: 20px;
   margin-top: 20px;
   transition: 0.3s ease-in-out;
 }
-
-.card:hover {
+main .card:hover {
   transform: scale(1.05);
 }
-
-.card-title{
+main .card-title {
   font-weight: bolder;
-  font-family: 'scroll-behavior';
+  font-family: "scroll-behavior";
 }
-.card-text{
+main .card-text {
   font-weight: 400;
-  font-family: 'Rubik', 'Doodle', 'Shadow';
+  font-family: "Rubik", "Doodle", "Shadow";
   margin-top: 0.5rem;
-  background-color: transparent; 
+  background-color: transparent;
   border: 1px solid rgb(194, 194, 194);
   padding: 5px;
   border-radius: 4px;
- }
-
-.card img {
+}
+main img {
   width: 100%;
   height: auto;
   border-bottom: 1px solid #ccc;
 }
-.filter-btn {
+main .filter-btn {
   border-radius: 12px;
   background-color: #ccc;
   box-shadow: 0px 2px 2px grey;
 }
-.card-body {
+main .card-body {
   display: flex;
   flex-direction: column;
   padding: 15px;
   text-align: center;
   align-items: center;
 }
-.vaporizadores {
+main .vaporizadores {
   display: flex;
   justify-content: center;
 }
-.product-price{
-  background-color: rgb(173, 252, 166);
+main .product-price {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 252, 166);
   width: 200px;
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
   font-size: 1.2rem;
 }
-.carta-vaporizadores {
+main .carta-vaporizadores {
   width: 80%;
 }
-.celulares-fila{
+main .celulares-fila {
   justify-content: center;
 }
-.celulares-contenedor {
+main .celulares-contenedor {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.celulares-2 {
+main .celulares-2 {
   width: 100%;
 }
-
-.airpods-contenedor {
+main .airpods-contenedor {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.airpods {
+main .airpods {
   width: 70%;
   justify-content: center;
 }
-
-.combo-cargador-contenedor{
+main .combo-cargador-contenedor {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-
-.cargador-combo{
+main .cargador-combo {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-
-.cargador {
+main .cargador {
+  justify-content: center;
   width: 70%;
-  justify-content: center;
 }
 
-.enlace-a-whatsapp {
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(5, 5, 63);
+  padding: 1.3rem;
+}
+footer .titulo-del-footer {
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.enlaces-esquina-derecha {
   position: fixed;
   display: flex;
   align-items: center;
@@ -267,39 +268,29 @@ hr{
   right: 30px;
   bottom: 75px;
 }
-.logo-de-whatsapp,
-.logo-de-instagram {
+.enlaces-esquina-derecha .logo-de-whatsapp,
+.enlaces-esquina-derecha .logo-de-instagram {
   width: 80px;
+  border-bottom: 0;
 }
-footer{
-  background-color: rgb(5, 5, 63);
-  padding: 1.3rem;
-}
-.titulo-del-footer{
-  font-weight: bolder;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-@media (max-width: 576px) {
+
+@media (max-width: 376px) {
   .pagina-de-inicio {
-    background-image: url(Imagenes/marketdigitalmain.jpg);
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-position: center;
-    height: 100vh;    
+    height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
   .titulo-del-inicio {
     font-size: 3rem;
-    color: white;
+    color: #ffffff;
     padding-bottom: 1rem;
     text-shadow: 3px 3px 10px rgb(35, 48, 193);
   }
-  
   .ir-a-productos {
     display: flex;
     justify-content: center;
@@ -318,13 +309,13 @@ footer{
     box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
   }
   .pie-de-pagina-de-index {
-    color: white;
+    color: #ffffff;
     background-color: rgb(5, 5, 63);
     display: flex;
     justify-content: space-around;
     text-align: start;
-    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    bottom: 0;
+    width: 100%;
     padding: 0.5rem;
     position: absolute;
     bottom: 0;
@@ -345,23 +336,21 @@ footer{
 }
 @media (min-width: 576px) {
   .pagina-de-inicio {
-    background-image: url(Imagenes/marketdigitalmain.jpg);
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-position: center;
-    height: 100vh;    
+    height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
   .titulo-del-inicio {
     font-size: 3rem;
-    color: white;
+    color: #ffffff;
     padding-bottom: 1rem;
     text-shadow: 3px 3px 10px rgb(35, 48, 193);
   }
-  
   .ir-a-productos {
     display: flex;
     justify-content: center;
@@ -380,13 +369,13 @@ footer{
     box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
   }
   .pie-de-pagina-de-index {
-    color: white;
+    color: #ffffff;
     background-color: rgb(5, 5, 63);
     display: flex;
     justify-content: space-around;
     text-align: start;
-    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    bottom: 0;
+    width: 100%;
     padding: 0.5rem;
     position: absolute;
     bottom: 0;
@@ -407,7 +396,7 @@ footer{
 }
 @media (min-width: 768px) {
   .pagina-de-inicio {
-    background-image: url(Imagenes/marketdigitalmain.jpg);
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-position: center;
     height: 100vh;
     background-size: cover;
@@ -416,14 +405,12 @@ footer{
     align-items: center;
     justify-content: center;
   }
-  
   .titulo-del-inicio {
     font-size: 3rem;
-    color: white;
+    color: #ffffff;
     padding-bottom: 1rem;
     text-shadow: 3px 3px 10px rgb(35, 48, 193);
   }
-  
   .ir-a-productos {
     display: flex;
     justify-content: center;
@@ -442,13 +429,13 @@ footer{
     box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
   }
   .pie-de-pagina-de-index {
-    color: white;
+    color: #ffffff;
     background-color: rgb(5, 5, 63);
     display: flex;
     justify-content: space-around;
     text-align: start;
-    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    bottom: 0;
+    width: 100%;
     padding: 0.5rem;
     position: absolute;
     bottom: 0;
@@ -469,7 +456,7 @@ footer{
 }
 @media (min-width: 992px) {
   .pagina-de-inicio {
-    background-image: url(Imagenes/marketdigitalmain.jpg);
+    background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-position: center;
     height: 100vh;
     background-size: cover;
@@ -478,14 +465,12 @@ footer{
     align-items: center;
     justify-content: center;
   }
-  
   .titulo-del-inicio {
     font-size: 3rem;
-    color: white;
+    color: #ffffff;
     padding-bottom: 1rem;
     text-shadow: 3px 3px 10px rgb(35, 48, 193);
   }
-  
   .ir-a-productos {
     display: flex;
     justify-content: center;
@@ -504,18 +489,18 @@ footer{
     box-shadow: 2px 2px 20px 12px rgb(35, 48, 193);
   }
   .pie-de-pagina-de-index {
-    color: white;
+    color: #ffffff;
     background-color: rgb(5, 5, 63);
     display: flex;
     justify-content: space-around;
     text-align: start;
-    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
-    width: 100%; /* Ajusta el ancho al 100% de la ventana */
+    bottom: 0;
+    width: 100%;
     padding: 0.5rem;
     position: absolute;
     bottom: 0;
   }
-  .enlace-a-whatsapp {
+  .enlaces-esquina-derecha {
     position: fixed;
     display: flex;
     align-items: center;
@@ -529,3 +514,5 @@ footer{
     padding-top: 10px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
