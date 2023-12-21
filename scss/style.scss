@@ -1331,6 +1331,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80.59vh;
 
   .container-de-titulo {
     display: flex;
@@ -1351,15 +1352,13 @@ footer {
   .contendor-de-imagen-y-botones {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: transparent;
     backdrop-filter: blur(5px);
     border-radius: 20px;
     border: 2px solid white;
-    width: 250px;
-    height: 400px;
-    margin-bottom: 4.19rem;
+    width: 300px;
+    height: 500px;
 
     .conteiner-de-contactanos {
       text-align: center;
@@ -1367,7 +1366,7 @@ footer {
 
       .titulos-de-contactatos {
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: $background-color;
         text-shadow: 0px 0px 5px $white-color;
       }
@@ -2131,6 +2130,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 82.4vh;
 
   .container-de-titulo {
     display: flex;
@@ -2157,8 +2157,8 @@ footer {
     backdrop-filter: blur(5px);
     border-radius: 20px;
     border: 2px solid white;
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 550px;
     margin-bottom: 2.75rem;
 
     .conteiner-de-contactanos {
@@ -2166,20 +2166,20 @@ footer {
 
       .titulos-de-contactatos {
         font-weight: 700;
-        font-size: 1.7rem;
+        font-size: 2.2rem;
         color: $background-color;
         text-shadow: 0px 0px 5px $white-color;
       }
 
       .inputs-de-contactanos {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         border-radius: 5px;
       }
     }
     .boton-de-enviar-contactanos {
       color: $white-color;
       text-shadow: 0px 0px 2px $white-color;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding: 8px 35px;
       background-color: transparent;
       border: 1px solid $white-color;
@@ -2531,6 +2531,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 82.4vh;
 
   .container-de-titulo {
     display: flex;
@@ -2557,8 +2558,8 @@ footer {
     backdrop-filter: blur(5px);
     border-radius: 20px;
     border: 2px solid white;
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 550px;
     margin-bottom: 2.75rem;
 
     .conteiner-de-contactanos {
@@ -2566,20 +2567,20 @@ footer {
 
       .titulos-de-contactatos {
         font-weight: 700;
-        font-size: 1.7rem;
+        font-size: 2.2rem;
         color: $background-color;
         text-shadow: 0px 0px 5px $white-color;
       }
 
       .inputs-de-contactanos {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         border-radius: 5px;
       }
     }
     .boton-de-enviar-contactanos {
       color: $white-color;
       text-shadow: 0px 0px 2px $white-color;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding: 8px 35px;
       background-color: transparent;
       border: 1px solid $white-color;
@@ -3349,7 +3350,7 @@ footer {
       border: 2px solid white;
       width: 350px;
       height: 500px;
-      margin-bottom: 2.75rem;
+      margin-bottom: 4.45rem;
 
       .conteiner-de-contactanos {
         text-align: center;
