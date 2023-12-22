@@ -61,12 +61,13 @@ body {
 .main-de-inicio {
   background-image: url(../Imagenes/marketdigitalmain.jpg);
   background-size: cover;
-  margin-top: 7.9rem;
+  height: 91.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .hero {
     text-align: center;
-    margin: 5.9rem 0rem 3rem 0px;
-    padding: 50px 0px;
 
     .titulo-del-inicio {
       font-size: 3rem;
@@ -77,165 +78,6 @@ body {
     .slogan {
       font-style: italic;
       color: #ffffff;
-    }
-  }
-  .resenias {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3rem;
-
-    .resenia-1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 500px;
-      height: 500px;
-      background: linear-gradient(
-        rgb(24, 24, 24),
-        rgb(100, 100, 100),
-        rgb(24, 24, 24)
-      );
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      margin-bottom: 50px;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-        transform: scale(1.05);
-      }
-
-      .titulo-de-resenia {
-        font-family: "scroll-behavior";
-        color: $white-color;
-        margin-top: 20px;
-        font-size: 1.5rem;
-      }
-
-      .texto-de-resenia {
-        color: $white-color;
-        margin: 20px;
-        font-family: "Rubik", "Doodle", "Shadow";
-        font-size: 1.2rem;
-        text-align: center;
-      }
-
-      .linea-divisora-resenia {
-        border: solid 1px $white-color;
-        width: 90%;
-      }
-
-      .imagenes-de-resenias {
-        width: 250px;
-        height: 250px;
-        border: 2px solid $white-color;
-      }
-
-      .parrafo-de-resenia {
-        margin-top: 1rem;
-        color: $white-color;
-      }
-    }
-    .resenia-2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 500px;
-      height: 500px;
-      background: linear-gradient(
-        rgb(24, 24, 24),
-        rgb(100, 100, 100),
-        rgb(24, 24, 24)
-      );
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-        transform: scale(1.05);
-      }
-
-      .titulo-de-resenia {
-        font-family: "scroll-behavior";
-        color: $white-color;
-        margin-top: 20px;
-        font-size: 1.5rem;
-      }
-
-      .texto-de-resenia {
-        color: $white-color;
-        margin: 20px;
-        font-family: "Rubik", "Doodle", "Shadow";
-        font-size: 1.2rem;
-        text-align: center;
-      }
-
-      .linea-divisora-resenia {
-        border: solid 1px $white-color;
-        width: 90%;
-      }
-
-      .imagenes-de-resenias {
-        width: 350px;
-        height: 250px;
-        border: 2px solid $white-color;
-      }
-
-      .parrafo-de-resenia {
-        margin-top: 1rem;
-        color: $white-color;
-      }
-    }
-
-    .resenia-3 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 500px;
-      height: 500px;
-      background: linear-gradient(
-        rgb(24, 24, 24),
-        rgb(100, 100, 100),
-        rgb(24, 24, 24)
-      );
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-        transform: scale(1.05);
-      }
-
-      .titulo-de-resenia {
-        font-family: "scroll-behavior";
-        color: $white-color;
-        margin-top: 20px;
-        font-size: 1.5rem;
-      }
-
-      .texto-de-resenia {
-        font-family: "Rubik", "Doodle", "Shadow";
-        color: $white-color;
-        margin: 20px;
-        font-size: 1.2rem;
-        text-align: center;
-      }
-
-      .linea-divisora-resenia {
-        border: solid 1px $white-color;
-        width: 90%;
-      }
-
-      .imagenes-de-resenias {
-        width: auto;
-        height: 250px;
-        border: 2px solid $white-color;
-      }
-
-      .parrafo-de-resenia {
-        margin-top: 1rem;
-        color: $white-color;
-      }
     }
   }
 }
@@ -560,13 +402,15 @@ body {
       box-shadow: 0px 0px 40px $shadow-color;
 
       .subtitulo-de-sobre-nosotros {
-        color: $white-color;
         text-align: center;
         font-family: "scroll-behavior";
         margin: 1.3rem;
+        -webkit-text-stroke: 1px white;
+        -webkit-text-fill-color: transparent;
       }
 
       .parrafos-de-sobre-nosotros {
+        font-size: 1rem;
         color: $white-color;
         text-align: center;
         font-family: "Rubik", "Doodle", "Shadow";
@@ -576,6 +420,7 @@ body {
       .imagenes-de-las-secciones {
         width: 800px;
         height: 600px;
+        object-fit: cover;
       }
     }
   }
@@ -619,7 +464,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -911,13 +755,15 @@ footer {
           color: $white-color;
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
-          font-size: 0.7rem;
+          font-size: 0.8rem;
           margin: 0.5rem;
         }
 
         .imagenes-de-las-secciones {
           width: 120px;
           height: 200px;
+          object-fit: cover;
+
         }
       }
     }
@@ -1023,7 +869,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -1305,6 +1150,8 @@ footer {
           text-align: center;
           font-family: "scroll-behavior";
           margin: 1.3rem;
+          font-size: 1.8rem;
+
         }
 
         .parrafos-de-sobre-nosotros {
@@ -1312,11 +1159,15 @@ footer {
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
           margin: 1.5rem;
+          font-size: 1rem;
+
         }
 
         .imagenes-de-las-secciones {
           width: 200px;
           height: 300px;
+          object-fit: cover;
+
         }
       }
     }
@@ -1420,7 +1271,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -1703,6 +1553,7 @@ footer {
           text-align: center;
           font-family: "scroll-behavior";
           margin: 1.3rem;
+          font-size: 1.8rem;
         }
 
         .parrafos-de-sobre-nosotros {
@@ -1710,11 +1561,15 @@ footer {
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
           margin: 1.5rem;
+          font-size: 1rem;
+
         }
 
         .imagenes-de-las-secciones {
-          width: 300px;
-          height: 400px;
+          width: 250px;
+          height: 350px;
+          object-fit: cover;
+
         }
       }
     }
@@ -1820,7 +1675,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -2104,6 +1958,7 @@ footer {
           text-align: center;
           font-family: "scroll-behavior";
           margin: 1.3rem;
+          font-size: 2rem;
         }
 
         .parrafos-de-sobre-nosotros {
@@ -2111,11 +1966,15 @@ footer {
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
           margin: 1.5rem;
+          font-size: 1.2rem;
+
         }
 
         .imagenes-de-las-secciones {
           width: 350px;
           height: 400px;
+          object-fit: cover;
+
         }
       }
     }
@@ -2221,7 +2080,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -2505,6 +2363,8 @@ footer {
           text-align: center;
           font-family: "scroll-behavior";
           margin: 1.3rem;
+          font-size: 2.5rem;
+
         }
 
         .parrafos-de-sobre-nosotros {
@@ -2512,11 +2372,15 @@ footer {
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
           margin: 1.5rem;
+          font-size: 1.4rem;
+
         }
 
         .imagenes-de-las-secciones {
           width: 400px;
           height: 500px;
+          object-fit: cover;
+
         }
       }
     }
@@ -2621,7 +2485,6 @@ footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 5rem;
 
     .hero {
       margin: 1rem;
@@ -2905,6 +2768,8 @@ footer {
           text-align: center;
           font-family: "scroll-behavior";
           margin: 1.3rem;
+          font-size: 2.2rem;
+
         }
 
         .parrafos-de-sobre-nosotros {
@@ -2912,11 +2777,14 @@ footer {
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
           margin: 1.5rem;
+          font-size: 1.3rem;
         }
 
         .imagenes-de-las-secciones {
           width: 500px;
           height: 600px;
+          object-fit: cover;
+
         }
       }
     }
@@ -3020,7 +2888,6 @@ footer {
   .main-de-inicio {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
-    margin-top: 7.9rem;
 
     .hero {
       text-align: center;
@@ -3300,13 +3167,15 @@ footer {
           color: $white-color;
           text-align: center;
           font-family: "Rubik", "Doodle", "Shadow";
-          font-size: 1rem;
+          font-size: 1.3rem;
           margin: 1.5rem;
         }
 
         .imagenes-de-las-secciones {
           width: 800px;
           height: 600px;
+          object-fit: cover;
+
         }
       }
     }
