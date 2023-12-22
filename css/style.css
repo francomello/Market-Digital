@@ -30,7 +30,7 @@ body {
 .main-de-inicio {
   background-image: url(../Imagenes/marketdigitalmain.jpg);
   background-size: cover;
-  height: 74.1vh;
+  height: 76.9vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +386,7 @@ footer .titulo-del-footer {
   }
   .main-de-inicio .hero {
     margin: 1rem;
-    padding-top: 120px;
+    padding-top: 10px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 2rem;
@@ -576,11 +576,11 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 75.1vh;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
-    padding-top: 120px;
+    padding-top: 10px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 2rem;
@@ -769,10 +769,11 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
-    padding-top: 120px;
+    padding-top: 10px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 3rem;
@@ -961,6 +962,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -1153,10 +1155,11 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
-    padding-top: 120px;
+    padding-top: 10px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 4rem;
@@ -1345,10 +1348,11 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
-    padding-top: 120px;
+    padding-top: 10px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 4rem;
@@ -1535,7 +1539,7 @@ footer .titulo-del-footer {
   .main-de-inicio {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
-    height: 75vh;
+    height: 76.99vh;
   }
   .main-de-inicio .hero {
     text-align: center;
