@@ -30,7 +30,7 @@ body {
 .main-de-inicio {
   background-image: url(../Imagenes/marketdigitalmain.jpg);
   background-size: cover;
-  height: 76.9vh;
+  height: 91.6vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,7 +382,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 75.1vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -576,7 +576,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -769,7 +769,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -962,7 +962,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -1155,7 +1155,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -1348,7 +1348,7 @@ footer .titulo-del-footer {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     margin: 1rem;
@@ -1539,12 +1539,10 @@ footer .titulo-del-footer {
   .main-de-inicio {
     background-image: url(../Imagenes/marketdigitalmain.jpg);
     background-size: cover;
-    height: 76.99vh;
+    height: 91.6vh;
   }
   .main-de-inicio .hero {
     text-align: center;
-    margin: 5.9rem 0rem 3rem 0px;
-    padding: 50px 0px;
   }
   .main-de-inicio .hero .titulo-del-inicio {
     font-size: 3rem;
@@ -1653,7 +1651,7 @@ footer .titulo-del-footer {
   }
   .main-de-contactanos {
     background-image: url(../Imagenes/background-contactanos.jpg);
-    margin-top: 5.7rem;
+    margin-top: 5.22rem;
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
