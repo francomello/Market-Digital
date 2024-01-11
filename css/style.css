@@ -28,7 +28,7 @@ body {
 }
 
 .main-de-inicio {
-  background-image: url(../Imagenes/marketdigitalmain.jpg);
+  background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
   background-size: cover;
   height: 91.6vh;
   display: flex;
@@ -51,7 +51,7 @@ body {
 
 .main-del-catalogo {
   margin-top: 7.9rem;
-  background-image: url(../Imagenes/space-fondo-body.jpg);
+  background-image: url(../assets/Imagenes/space-fondo-body.jpg);
 }
 .main-del-catalogo .fila-de-titulo-divisor {
   display: flex;
@@ -194,7 +194,7 @@ body {
 }
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 5.7rem;
   padding-top: 2rem;
   display: flex;
@@ -310,7 +310,7 @@ body {
 }
 
 .main-de-sobre-nosotros {
-  background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+  background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
   margin-top: 7.9rem;
 }
 .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -379,7 +379,7 @@ footer .titulo-del-footer {
 
 @media (min-width: 280px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -454,7 +454,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -573,7 +573,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 376px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -648,7 +648,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -689,7 +689,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -766,7 +766,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 576px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -787,7 +787,7 @@ footer .titulo-del-footer {
     font-size: 1.2rem;
   }
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
   }
@@ -841,7 +841,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -882,7 +882,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -959,7 +959,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 768px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -980,7 +980,7 @@ footer .titulo-del-footer {
     font-size: 1.2rem;
   }
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
   }
@@ -1034,7 +1034,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -1074,7 +1074,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -1152,7 +1152,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 992px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -1173,7 +1173,7 @@ footer .titulo-del-footer {
     font-size: 1.6rem;
   }
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
   }
@@ -1227,7 +1227,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -1267,7 +1267,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -1345,7 +1345,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 1200px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -1420,7 +1420,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -1460,7 +1460,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -1537,7 +1537,7 @@ footer .titulo-del-footer {
 }
 @media (min-width: 1600px) {
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     height: 91.6vh;
   }
@@ -1555,7 +1555,7 @@ footer .titulo-del-footer {
     color: #ffffff;
   }
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
   }
@@ -1609,7 +1609,7 @@ footer .titulo-del-footer {
     box-shadow: 0px 0px 100px rgb(35, 48, 193);
   }
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
   }
   .main-de-sobre-nosotros .secciones-sobre-nosotros {
@@ -1650,7 +1650,7 @@ footer .titulo-del-footer {
     object-fit: cover;
   }
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 5.22rem;
     padding-top: 2rem;
     display: flex;

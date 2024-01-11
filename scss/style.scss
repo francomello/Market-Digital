@@ -59,7 +59,7 @@ body {
 // pagina de index
 
 .main-de-inicio {
-  background-image: url(../Imagenes/marketdigitalmain.jpg);
+  background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
   background-size: cover;
   height: 91.6vh;
   display: flex;
@@ -86,7 +86,7 @@ body {
 
 .main-del-catalogo {
   margin-top: 7.9rem;
-  background-image: url(../Imagenes/space-fondo-body.jpg);
+  background-image: url(../assets/Imagenes/space-fondo-body.jpg);
 
   .fila-de-titulo-divisor {
     @include flex-container;
@@ -244,7 +244,7 @@ body {
 //pagina de contactanos
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 5.7rem;
   padding-top: 2rem;
   display: flex;
@@ -380,7 +380,7 @@ body {
 // pagina sobre nosotros
 
 .main-de-sobre-nosotros {
-  background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+  background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
   margin-top: 7.9rem;
 
   .secciones-sobre-nosotros {
@@ -461,7 +461,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -553,7 +553,7 @@ footer {
   //RESPONSIVE PARA PAGINA DE NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -697,7 +697,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -788,7 +788,7 @@ footer {
   //RESPONSIVE PARA PAGINA DE NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -840,7 +840,7 @@ footer {
 // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 6.5rem;
   padding-top: 2rem;
   display: flex;
@@ -932,7 +932,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -960,7 +960,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE MEDIA
 
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
 
@@ -1022,7 +1022,7 @@ footer {
   }
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -1073,7 +1073,7 @@ footer {
 // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 6.5rem;
   padding-top: 2rem;
   display: flex;
@@ -1167,7 +1167,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -1195,7 +1195,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE MEDIA
 
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
 
@@ -1259,7 +1259,7 @@ footer {
   //RESPONSIVE PAGINA PARA NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -1309,7 +1309,7 @@ footer {
 // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 6.5rem;
   padding-top: 2rem;
   display: flex;
@@ -1403,7 +1403,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -1430,7 +1430,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE MEDIA
 
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
 
@@ -1494,7 +1494,7 @@ footer {
   //RESPONSIVE PAGINA PARA NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -1545,7 +1545,7 @@ footer {
 // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
 .main-de-contactanos {
-  background-image: url(../Imagenes/background-contactanos.jpg);
+  background-image: url(../assets/Imagenes/background-contactanos.jpg);
   margin-top: 6.5rem;
   padding-top: 2rem;
   display: flex;
@@ -1638,7 +1638,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     background-position: center;
     height: 91.6vh;
@@ -1730,7 +1730,7 @@ footer {
   //RESPONSIVE PAGINA PARA NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -1781,7 +1781,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 6.5rem;
     padding-top: 2rem;
     display: flex;
@@ -1873,7 +1873,7 @@ footer {
   // RESPONSIVE PARA PAGINA INDEX
 
   .main-de-inicio {
-    background-image: url(../Imagenes/marketdigitalmain.jpg);
+    background-image: url(../assets/Imagenes/marketdigitalmain.jpg);
     background-size: cover;
     height: 91.6vh;
 
@@ -1895,7 +1895,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE MEDIA
 
   .main-de-media {
-    background-image: url(../Imagenes/background-media.jpg);
+    background-image: url(../assets/Imagenes/background-media.jpg);
     display: flex;
     flex-direction: column;
 
@@ -1960,7 +1960,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE NOSOTROS
 
   .main-de-sobre-nosotros {
-    background-image: url(../Imagenes/backgroun-sobre-nosotros.jpg);
+    background-image: url(../assets/Imagenes/backgroun-sobre-nosotros.jpg);
     margin-top: 7.9rem;
 
     .secciones-sobre-nosotros {
@@ -2011,7 +2011,7 @@ footer {
   // RESPONSIVE PARA PAGINA DE CONTACTANOS
 
   .main-de-contactanos {
-    background-image: url(../Imagenes/background-contactanos.jpg);
+    background-image: url(../assets/Imagenes/background-contactanos.jpg);
     margin-top: 5.22rem;
     padding-top: 2rem;
     display: flex;
